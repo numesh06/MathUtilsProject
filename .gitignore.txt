@@ -1,6 +1,27 @@
+# Compiled class files
 bin/
 *.class
-*.jar
-*.exec
+
+# IDE settings
+*.iml
+.idea/
 .vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Sonar and Jacoco outputs
+jacoco.exec
 jacoco-report/
+.sonar/
+
+# Logs
+*.log
+
+# JAR artifacts
+*.jar
+
+# Jenkins or CI cache
+target/
+workspace/
